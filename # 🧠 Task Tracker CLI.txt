@@ -1,0 +1,35 @@
+# 🧠 Task Tracker CLI
+
+A simple yet powerful Command Line Interface (CLI) Task Tracker built with Python. Manage your tasks directly from the terminal — Add, Update, Delete, and Track progress with ease. Ideal for productivity and learning file handling, JSON, and CLI design.
+
+---
+
+## 📌 Features
+
+- ➕ Add tasks with descriptions
+- ✏️ Update existing tasks
+- ❌ Delete tasks by ID
+- 🔁 Mark tasks as `in-progress` or `done`
+- 📋 List all tasks or filter by status
+- 💾 Stores tasks in a local JSON file
+- 📁 JSON file auto-created if not found
+- ❗ No external libraries — 100% native Python
+
+---
+
+## 🛠 Requirements
+
+- Python 3.6+
+- Windows (for `.exe` version)
+- No external libraries required
+
+---
+
+## 🚀 Installation & Setup
+
+### 🔹 Option 1: Run using Python
+
+```bash
+git clone https://github.com/muhammad ziyam/task-tracker-cli.git
+cd task-tracker-cli
+python task_cli.py add "Example Task"
